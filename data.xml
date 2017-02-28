@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "data.dtd">
+<users>
+<user id="58b1d84fcd188"><name>hager</name><gender>female</gender><phone>5050500</phone><email>hager@gmail.com</email></user><user id="58b1ead98e24f"><name>ali</name><gender>male</gender><phone>202020000</phone><email>ali@gmail.com</email></user><user id="58b5d87f4f2da"><name>hager</name><gender>female</gender><phone>505050505050</phone><email>hager@gmail.com</email></user></users>

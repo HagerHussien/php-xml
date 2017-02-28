@@ -1,0 +1,7 @@
+<!ELEMENT users (user+)>
+<!ELEMENT user (name, gender, phone, email)>
+<!ATTLIST user   id CDATA #REQUIRED >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT gender (male|female) #IMPLIED>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
