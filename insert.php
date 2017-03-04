@@ -15,13 +15,6 @@ if (isset($_POST['insert'])) {
 }
 
 
-foreach ($users->user as $user)
-{
-    if ($item['id']  )
-    {
-        
-    }
-}
 
 ?>
 <form  method="POST">
@@ -36,16 +29,16 @@ foreach ($users->user as $user)
 
   <br>
   Name:<br>
-  <input type="text" name="name" placeholder="Enter your name !">
+  <input type="text" name="name" placeholder="Enter your name !" required>
   <br>
   Gender:<br>
-  <input type="text" name="gender" placeholder="Enter your gender !">
+  <input type="text" name="gender" placeholder="Enter your gender !" required>
   <br>
   Phone:<br>
-  <input type="text" name="phone" placeholder="Enter your phone !">
+  <input type="text" name="phone" placeholder="Enter your phone !" required>
   <br>
    Email:<br>
-  <input type="text" name="email" placeholder="Enter your email !">
+  <input type="text" name="email" placeholder="Enter your email !" required>
   <br><br>
   <input type="submit" name="insert" value="Insert">
 </form> 

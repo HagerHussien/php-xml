@@ -38,16 +38,16 @@ if ($user['id'] == $_GET['id']) {
 
   <br>
   Name:<br>
-  <input type="text" name="name" value="<?php echo $name;?>" >
+  <input type="text" name="name" value="<?php echo $name;?>"  required >
   <br>
   Gender:<br>
-  <input type="text" name="gender" value="<?php echo $gender;?>">
+  <input type="text" name="gender" value="<?php echo $gender;?>" required>
   <br>
   Phone:<br>
-  <input type="text" name="phone" value="<?php echo $phone;?>" >
+  <input type="text" name="phone" value="<?php echo $phone;?>"  required>
   <br>
    Email:<br>
-  <input type="text" name="email" value="<?php echo $email;?>">
+  <input type="text" name="email" value="<?php echo $email;?>" required>
   <br><br>
   <input type="submit" name="edit" value="EDIT">
 </form> 

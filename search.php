@@ -166,7 +166,7 @@ $(document).ready(function(){
     });
 });
 
-
+  /* 
 function parseXML(xml){
     var searchFor = $('#search').val();
     var reg = new RegExp(searchFor, "i");
@@ -192,7 +192,7 @@ function parseXML(xml){
 
         }
 
-      /*  
+     
          if(phonesearch > -1){
 
             $('#output').append('Found <i>'+searchFor+'<\/i> as phone in  <br\/> name: '+name.replace(reg, '<b>'+searchFor+'</b>')+'<br \/>gender: '+gender.replace(reg, '<b>'+searchFor+'</b>')+'<br \/> phone: '+phone.replace(reg, '<b>'+searchFor+'</b>')+'<br \/> email: '+email.replace(reg, '<b>'+searchFor+'</b>')+'<br \/>');
@@ -202,8 +202,8 @@ function parseXML(xml){
 
             $('#output').append('Found <i>'+searchFor+'<\/i> as phone in  <br\/> name: '+name.replace(reg, '<b>'+searchFor+'</b>')+'<br \/>gender: '+gender.replace(reg, '<b>'+searchFor+'</b>')+'<br \/> phone: '+phone.replace(reg, '<b>'+searchFor+'</b>')+'<br \/> email: '+email.replace(reg, '<b>'+searchFor+'</b>')+'<br \/>');
 
-        }*/
+        }
 
     });    
-}
+}*/
 </script>
